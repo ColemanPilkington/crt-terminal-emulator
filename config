@@ -1,0 +1,60 @@
+# --- Fallout-style colors ---
+background = #000000
+foreground = #7CFFB5
+minimum-contrast = 2.0
+
+# Font 
+font-family = Menlo
+font-size = 14
+bold-is-bright = true
+foreground = #7cffb5
+
+# overwrite the font to be monochrome
+palette = 0=#7cffb5
+palette = 1=#7cffb5
+palette = 2=#7cffb5
+palette = 3=#7cffb5
+palette = 4=#7cffb5
+palette = 5=#7cffb5
+palette = 6=#7cffb5
+palette = 7=#7cffb5
+palette = 8=#7cffb5
+palette = 9=#7cffb5
+palette = 10=#7cffb5
+palette = 11=#7cffb5
+palette = 12=#7cffb5
+palette = 13=#7cffb5
+palette = 14=#7cffb5
+palette = 15=#7cffb5
+
+#crt bloom
+custom-shader = /Users/colemanpilkington/.config/ghostty/ghostty-shaders/bettercrt.glsl
+custom-shader = /Users/colemanpilkington/.config/ghostty/ghostty-shaders/bloom.glsl
+#custom-shader = /Users/colemanpilkington/.config/ghostty/ghostty-shaders/glitchy.glsl
+
+alpha-blending = linear-corrected
+background-opacity = .9
+
+# Optional: animate even when window isn't focused
+custom-shader-animation = always
+
+# title
+title = ""
+macos-titlebar-proxy-icon = hidden
+macos-titlebar-style = transparent
+window-titlebar-background = beige
+window-titlebar-foreground = #7CFFB5
+
+# macOS icon settings
+macos-icon = custom-style
+macos-icon-frame = beige
+
+# background image
+background-image = /Users/colemanpilkington/Pictures/crt_background.png
+background-image-fit = stretch
+
+# padding to keep text on "glass"
+window-padding-x = 55
+window-padding-y = 60
+
+
