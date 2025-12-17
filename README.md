@@ -44,7 +44,8 @@ distro package manager wrapper.
 
 - Ghostty looks in ~/.config/ghostty/config when starting up. If we create this file,
 the emulator will automatically apply these changes when we start up a new terminal.
--NOTE: for testing to see new effects, sometimes the entire emulator app needs
+
+- NOTE: for testing to see new effects, sometimes the entire emulator app needs
 to be exited and reoppened. Sometimes "sourcing" or creating a new terminal 
 window will suffice, however closing app is the safest bet.
 
@@ -52,4 +53,4 @@ Create the new configuration file like this:
 ```
 % > touch ~/.config/ghostty/config
 ```
-There is **no file extension on purpose**
+There is <u> **no file extension on purpose**</u>
